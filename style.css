@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  height: 100vh;
+}
+.local-storage {
+  place-self: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 28px;
+}
+#storageInput {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  margin: 20px 0;
+}
+#save {
+  padding: 10px;
+  min-width: 160px;
+  background-color: rgb(72, 115, 8);
+  border: none;
+  border-radius: 10px;
+  color: aliceblue;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-left: auto;
+  cursor: pointer;
+}
+#remove {
+  padding: 10px;
+  min-width: 100px;
+  border: none;
+  background-color: brown;
+  color: aliceblue;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#remove:hover {
+  background-color: rgb(123, 12, 12);
+  scale: 1.05;
+}
+#save:hover {
+  background-color: rgb(44, 72, 3);
+  scale: 1.05;
+}
